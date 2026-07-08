@@ -1,68 +1,41 @@
-# 🐶 Dog Walk Clone — White-Label On-Demand Pet Care App by Miracuves
+# Dog Walk Clone — White-Label Solution by Miracuves
 
-<div align="center">
-
-**Launch your own on-demand pet care platform in 6 days - GPS tracking, walker dashboard, booking, fully branded.**
-
-[![Live Demo](https://img.shields.io/badge/Live_Demo-View_Now-crimson?style=for-the-badge)](https://miracuves.com/dog-walk-clone/)
-[![Get Quote](https://img.shields.io/badge/Get_Quote-Free_Consultation-black?style=for-the-badge)](https://miracuves.com/contact/)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-Chat_Now-25D366?style=for-the-badge&logo=whatsapp)](https://wa.me/919830009649)
-
-</div>
-
-<div align="center">
-<a href="https://miracuves.com/dog-walk-clone/">
-<img src="https://miracuves.com/wp-content/uploads/2025/02/Rover-Clone-Banner.webp" alt="Dog Walk Clone - Screenshot" width="800" style="border-radius:8px;max-width:100%;height:auto" />
-</a>
-</div>
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Try_Now-e8344f?style=for-the-badge)](https://mxrover.mimeld.com)
+[![Solution Page](https://img.shields.io/badge/Solution_Page-miracuves.com-0b0b10?style=for-the-badge)](https://miracuves.com/dog-walk-clone/)
+[![Delivery](https://img.shields.io/badge/Go_Live-6_Working_Days-2ecc8f?style=for-the-badge)](https://miracuves.com/dog-walk-clone/#pricing)
+[![Support](https://img.shields.io/badge/Support-60_Days_+_12mo_Updates-blue?style=for-the-badge)](https://miracuves.com/facts/)
 
 ---
 
 ## Table of Contents
 
-- [What Is a Dog Walk Clone?](#what-is)
-- [Why Choose Miracuves](#why-choose)
-- [Who Is This For](#who-for)
-- [How It Works](#how-it-works)
-- [Core Features](#features)
-- [All Modules](#modules)
-- [Tech Stack](#tech-stack)
-- [Revenue Streams](#revenue)
-- [Pricing](#pricing)
-- [Deployment Timeline](#timeline)
-- [Build vs Buy](#build-vs-buy)
-- [Market Opportunity](#market)
-- [FAQ](#faq)
-- [Related Solutions](#related)
+1. [Who Is This For?](#who-is-this-for)
+2. [How It Works](#how-it-works)
+3. [Core Features](#core-features)
+4. [Architecture](#architecture)
+5. [Revenue Streams](#revenue-streams)
+6. [What's Included](#whats-included)
+7. [Deployment Timeline](#deployment-timeline)
+8. [Why Not Build From Scratch?](#why-not-build-from-scratch)
+9. [Market Opportunity](#market-opportunity)
+10. [Client Testimonials](#client-testimonials)
+11. [FAQ](#faq)
+12. [Resources](#resources)
+13. [About Miracuves](#about-miracuves)
 
----
+## Live Demos
 
-## 🐶 What Is a Dog Walk Clone?
+| Environment | URL | What you can test |
+|---|---|---|
+| Web Platform | [mxrover.mimeld.com](https://mxrover.mimeld.com) | Full experience in the browser |
+| Mobile App (Android) | [mas.mimeld.com](https://mas.mimeld.com) | Browse, transact, engage |
+| Admin Dashboard | [Solution page → Demo](https://miracuves.com/dog-walk-clone/#demo) | Users, content, plans, analytics |
 
-A **Dog Walk Clone** is a ready-to-deploy, white-label on-demand pet care platform that replicates the core functionality of Wag! and Rover - dog walking, pet sitting, GPS tracking, walker profiles, and secure payments - customized entirely under your own brand.
+Demo credentials: [miracuves.com/dog-walk-clone -> Demo section](https://miracuves.com/dog-walk-clone/#demo)
 
-Every functional component - the pet parent app, walker app, admin dashboard, booking engine, and GPS tracking - is built, tested, and deployable from day one.
+## What Makes This Dog Walk Clone Different
 
-Instead of spending 6-12 months and $65,000+ building from scratch, Miracuves delivers a fully functional, scalable platform in **6 days**, starting at **$3,699**, with complete source code ownership.
-
-The global pet care market is projected to reach **$350 billion by 2027**. Whether you are launching a dog walking service in a metro city, building a full pet care marketplace, or expanding an existing pet business - this solution is your fastest path to market.
-
----
-
-## Why Choose Miracuves for Your Dog Walk Clone?
-
-Choosing the right technology partner determines whether your launch succeeds or stalls. Here is what sets Miracuves apart:
-
-- **6-day delivery guarantee** - from first conversation to live platform in under a week
-- **GPS tracking** - real-time walk tracking with route recording
-- **Walker profiles** - detailed sitter profiles with reviews and ratings
-- **Booking engine** - schedule recurring walks with calendar sync
-- **Complete source code ownership** - zero vendor lock-in
-- GPS-enabled walk tracking
-- Background check integration
-- Sitter matching engine
-
----
+<!-- TODO: fill 3-5 vertical-specific differentiators -->
 
 ## Who Is This For?
 
@@ -111,7 +84,7 @@ Choosing the right technology partner determines whether your launch succeeds or
 
 ---
 
-## Advanced and AI-Powered Features
+## Advanced Features
 
 The platform integrates AI-powered features that reduce manual overhead and capture revenue opportunities:
 
@@ -124,7 +97,7 @@ The platform integrates AI-powered features that reduce manual overhead and capt
 
 ---
 
-## All Modules: Apps and Web Panels
+## Apps and Web Panels
 
 | Module | Description |
 |---|---|
@@ -134,7 +107,19 @@ The platform integrates AI-powered features that reduce manual overhead and capt
 
 ---
 
-## Tech Stack
+## Architecture
+
+```mermaid
+flowchart LR
+    A[Flutter Apps<br/>Android · iOS] --> G[REST API<br/>Laravel Backend]
+    W[Web Platform<br/>Responsive] --> G
+    P[Partner Panel] --> G
+    AD[Admin Dashboard] --> G
+    G --> DB[(MySQL)]
+    G --> S3[Object Storage]
+```
+
+**Stack:**
 
 | Layer | Technology |
 |---|---|
@@ -165,7 +150,15 @@ The platform is engineered to generate revenue from day one through multiple com
 
 ---
 
-## Pricing and What Is Included
+## Security and Compliance
+
+- OTP-based authentication
+- SSL/TLS encrypted API communication
+- GDPR-ready data handling
+
+---
+
+## What's Included
 
 | Plan | Price | What You Get |
 |---|---|---|
@@ -185,6 +178,8 @@ The platform is engineered to generate revenue from day one through multiple com
 - Free 1-Year Updates
 
 ---
+**Pricing:** from **$3,699** — transparent on the [solution page](https://miracuves.com/dog-walk-clone/#pricing).
+
 
 ## Deployment Timeline
 
@@ -201,15 +196,7 @@ The platform is engineered to generate revenue from day one through multiple com
 
 ---
 
-## Security and Compliance
-
-- OTP-based authentication
-- SSL/TLS encrypted API communication
-- GDPR-ready data handling
-
----
-
-## Build vs Buy Comparison
+## Why Not Build From Scratch?
 
 | Factor | Build from Scratch | Miracuves Solution |
 |---|---|---|
@@ -236,7 +223,7 @@ The platform is engineered to generate revenue from day one through multiple com
 
 ---
 
-## Successful Verticals Built on This Model
+## Successful Verticals
 
 - On-demand dog walking (like Wag!, Rover)
 - Pet sitting and boarding platforms
@@ -263,7 +250,7 @@ The platform is engineered to generate revenue from day one through multiple com
 
 ---
 
-## Frequently Asked Questions
+## FAQ
 
 **How much does a Dog Walk clone cost?**
 A white-label Dog Walk clone from Miracuves starts at $3,699 with complete source code ownership.
@@ -282,7 +269,7 @@ Yes. Complete source code ownership is included.
 
 ---
 
-## Related Solutions from Miracuves
+## Related Solutions
 
 Explore our other white-label clone solutions:
 
@@ -291,6 +278,11 @@ Explore our other white-label clone solutions:
 - [PetSmart Clone - Pet Care](https://github.com/Miracuves-Solutions/PetSmart-Clone)
 
 ---
+
+## Resources
+
+- [Full Solution Page](https://miracuves.com/dog-walk-clone/) — features, pricing, demos, FAQ
+
 
 ## Get Started
 
@@ -333,3 +325,22 @@ This product is independently developed by Miracuves. All product names, logos, 
 
 </div>
 
+
+*Keywords: dog walk clone, dog walk script, white label solution, laravel flutter app, clone script*
+
+
+
+---
+
+### Note on This Repository
+
+This repository is a product overview. The full source code is delivered to clients on purchase. For a hands-on evaluation, use the live demos above; credentials are public on the solution page.
+
+
+<!--
+=========================================================
+GENERATED FROM MIRACUVES NETFLIX-CLONE README TEMPLATE
+Canon: 6 working days, from $2,799 floor, 60 days support + 12 months updates.
+Never use 3 days. See https://miracuves.com/facts/ for audited claims.
+=========================================================
+-->
